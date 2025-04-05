@@ -1,6 +1,8 @@
 # 添加直连规则示例
 
 +rules:
+  - 'DOMAIN,steamcdn-a.akamaihd.net,DIRECT'
+  - 'DOMAIN-SUFFIX,steamserver.net,DIRECT'
   - "GEOSITE,category-games@cn,DIRECT"
   - "DOMAIN-SUFFIX,steamserver.net,DIRECT"
   - "DOMAIN-SUFFIX,cm.steampowered.com,DIRECT"
