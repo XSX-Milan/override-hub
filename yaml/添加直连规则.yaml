@@ -1,8 +1,7 @@
 # 添加直连规则示例
 
 +rules:
-  - 'DOMAIN,steamcdn-a.akamaihd.net,DIRECT'
-  - 'DOMAIN-SUFFIX,steamserver.net,DIRECT'
+  - "DOMAIN,steamcdn-a.akamaihd.net,DIRECT"
   - "DOMAIN-SUFFIX,steamserver.net,DIRECT"
   - "DOMAIN-SUFFIX,cm.steampowered.com,DIRECT"
   - "IP-CIDR,45.121.184.0/24,DIRECT"
